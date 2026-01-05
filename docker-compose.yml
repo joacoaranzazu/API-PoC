@@ -3,7 +3,7 @@ version: '3.8'
 services:
   api-gateway:
     build:
-      context: ./api
+      context: ./services/api
       dockerfile: Dockerfile
     ports:
       - "5000:5000"
